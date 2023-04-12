@@ -9,7 +9,7 @@ public enum Idioma {
 	ES("tengo", "hambre"),
 	CA("tenc", "fam");
 
-	List<String> diccionario;
+	public List<String> diccionario;
 
 	private Idioma(String... palabras) {
 		this.diccionario = Arrays.asList(palabras);
